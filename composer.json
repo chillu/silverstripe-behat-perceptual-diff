@@ -1,0 +1,27 @@
+{
+	"name": "silverstripe/behat-perceptual-diff",
+	"description": "Modification of zodyac/behat-perceptual-diff-extension which supports SilverStripe CMS ajax handling",
+	"homepage": "http://silverstripe.org",
+	"license": "BSD-3-Clause",
+	"keywords": ["silverstripe", "behat"],
+	"authors": [
+		{
+			"name": "Ingo Schommer",
+			"homepage": "http://silverstripe.org"
+		}
+	],
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "git@github.com:chillu/BehatPerceptualDiffExtension.git"
+		}
+	],
+	"require": {
+		"php": ">=5.3.2",
+		"composer/installers": "*",
+		"zodyac/behat-perceptual-diff-extension": "*"
+	},
+	"autoload": {
+        "psr-0": { "SilverStripe\\Behat\\PerceptualDiffExtension": "src/" }
+    }
+}

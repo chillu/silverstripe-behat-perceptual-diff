@@ -1,0 +1,3 @@
+parameters:
+    # Override the default step tester to fail on perceptual differences
+    behat.tester.step.class: "SilverStripe\\Behat\\PerceptualDiffExtension\\Tester\\StepTester"
