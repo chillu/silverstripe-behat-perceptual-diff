@@ -14,6 +14,10 @@ This extension is only required for perceptual diff testing
 in the SilverStripe CMS UI. For perceptual diffs on websites
 running SilverStripe, use the underlying [BehatPerceptualDiff](https://github.com/jadu/BehatPerceptualDiffExtension) extension directly.
 
+![Preview of a visual diff](preview.png)
+
+Preview of a visual diff from the SilverStripe CMS UI (added buttons in TinyMCE editor)
+
 ## Installation
 
 Follow the [SilverStripe Behat Extension](https://github.com/silverstripe-labs/silverstripe-behat-extension/) install instructions
